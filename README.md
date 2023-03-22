@@ -1,47 +1,30 @@
-# kotlin-project-template
+# Drone Delivery Service - Velozient Assessment
 
-**dependency versions:**
+### Technical dependencies:
 
-- [kotlin 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0)
-- [gradle 7.5](https://github.com/gradle/gradle/releases/tag/v7.5.0)
-- [junit 5.9.2](https://github.com/junit-team/junit5/releases/tag/r5.9.2)
+- [Kotlin 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0)
+- [Gradle 7.5](https://github.com/gradle/gradle/releases/tag/v7.5.0)
+- [JUnit 5.9.2](https://github.com/junit-team/junit5/releases/tag/r5.9.2)
+- [IntelliJ IDEA 2022.3.3](https://www.jetbrains.com/idea/)
 
-**run gradle build.**
+### Build project:
 
 ~~~sh
 $ ./gradlew build
 ~~~
 
-**run gradle tests.**
+### Execute tests:
 
 ~~~sh
 $ ./gradlew test
 ~~~
 
-**sample main file.**
+### Run project:
 
-~~~kotlin
-package hello
+1. Open the project folder in IntelliJ IDEA
+2. Look for the execution options in the top bar of the IDE
 
-fun main(vararg args: String) {
-    println("hello world!")
-}
-~~~
+   <img src="./run-project.png" width="320" />
 
-**sample test file.**
-
-~~~kotlin
-package hello
-
-import kotlin.test.Test
-import kotlin.test.assertEquals
-
-class WorldTest {
-
-    @Test
-    fun `2 + 3 equals 5`() {
-        assertEquals(5, 2 + 3)
-    }
-
-}
-~~~
+    And click the green triangle/arrow icon
+3. An execution panel will appear with the execution output
