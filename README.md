@@ -1,5 +1,17 @@
 # Drone Delivery Service - Velozient Assessment
 
+## Algorithm and Approach
+
+The idea behind the algorithm used in the project was to simply check for each location
+and each drone.
+
+For the given location if a drone was able to carry that package weight within the current
+trip, it would be assigned to it. Otherwise a new trip would be created and we would
+check for the location package weight and the drone maximum weight again.
+
+The algorithm assigns a list of trips for each drone. Each trip includes a list of locations
+visited in that trip, meaning packages where delivered to said location.
+
 ### Technical dependencies:
 
 - [Kotlin 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0)
