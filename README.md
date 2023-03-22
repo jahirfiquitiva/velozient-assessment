@@ -14,6 +14,7 @@ visited in that trip, meaning packages where delivered to said location.
 
 ### Technical dependencies:
 
+- Java 11
 - [Kotlin 1.8.0](https://github.com/JetBrains/kotlin/releases/tag/v1.8.0)
 - [Gradle 7.5](https://github.com/gradle/gradle/releases/tag/v7.5.0)
 - [JUnit 5.9.2](https://github.com/junit-team/junit5/releases/tag/r5.9.2)
