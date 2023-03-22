@@ -7,7 +7,6 @@ val myLibraryVersion by extra { "0.0.1" }
 
 plugins {
     val kotlinVersion = "1.8.0"
-
     kotlin("jvm") version kotlinVersion
 }
 
