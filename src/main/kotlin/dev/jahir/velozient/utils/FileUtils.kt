@@ -4,9 +4,11 @@ import java.io.File
 
 object FileUtils {
 
-    fun readFile(filename: String): List<String> {
+    fun readFile(filename: String): List<String> = try {
         val file = File(filename)
-        return file.useLines { FormatUtils.cleanInputFileText(it).toMutableList() }
+        file.useLines { FormatUtils.cleanInputFileText(it).toMutableList() }
+    } catch (e: Exception) {
+        listOf()
     }
 
 }

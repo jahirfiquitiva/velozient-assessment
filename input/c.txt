@@ -1,0 +1,8 @@
+[DroneA], [275], [DroneB], [350]
+[LocationA], [200]
+[LocationB], [150]
+[LocationC], [50]
+[LocationD], [25]
+[LocationE], [300]
+[LocationF], [100]
+[LocationG], [50]
